@@ -118,10 +118,13 @@ export default function Home() {
     if (trigger){ 
       if (buttonPressed==='home') {
         scrollTo(homeSectionRef);
+        
       } else if (buttonPressed==='aboutUs') {
         scrollTo(aboutUsSectionRef);
+        
       } else if (buttonPressed==='events') {
         scrollTo(eventsSectionRef);
+        
       } else if (buttonPressed==='yearbook') {
 
       } else if (buttonPressed==='team') {
