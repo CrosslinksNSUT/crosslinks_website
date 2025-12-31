@@ -30,7 +30,7 @@ export const NavBar = () => {
             </Link> */}
         </ul>
         
-              {/* https://docs.google.com/forms/d/e/1FAIpQLSdaVfS-6eW2Ny6I57CvYMWO7GwKoNhDRfkci2bWZMeFbmjDvA/viewform */}
+              {/* https://drive.google.com/drive/folders/1gfa78hM0S5tYqaCZcpYBY7VYq9QF1dVy */}
 
         <a href="https://drive.google.com/drive/folders/1gfa78hM0S5tYqaCZcpYBY7VYq9QF1dVy" target="_blank">
               <button className='hidden md:block listItem'>
