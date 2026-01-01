@@ -115,7 +115,7 @@ export const NavBar = () => {
                   showBorder={true}
                   className="custom-class"
                   >
-                  ALUMNI MEET '25
+                  ALUMNI MEET &apos;25
                   </GradientText>
 
               </button>
