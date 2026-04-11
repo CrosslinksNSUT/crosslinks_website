@@ -320,6 +320,8 @@ export default function Home() {
             <h2 className="font-nexa-light max-[400px]:text-xs max-[400px]:tracking-[8] text-xl tracking-[10] sm:text-2xl md:text-3xl md:tracking-[18]">THE FACE OF NSUT</h2>
             <p className="mt-4 text-sm sm:text-base md:text-lg text-[#1cd30c] text-center">GRAB YOUR SCRIBBLE T-SHIRT & YEARBOOK </p>
             <div className="w-full flex min-[580px]:flex-row max-[581px]:flex-col justify-center items-center gap-6 mt-6">
+        
+          
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSeV6n2kqO3g9AhZcP6JkJS9WS0Ugts3AkIwn316mwP6KqLd4A/viewform" target="_blank">
                     <button className=' block listItem'>
                   
