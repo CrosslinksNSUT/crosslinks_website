@@ -318,6 +318,37 @@ export default function Home() {
           <div className="title flex flex-col gap-0 sm:gap-1 items-center justify-center">
             <h1 className="font-greater-theory max-[400px]:text-4xl font-light text-5xl sm:text-6xl md:text-8xl ">CROSSLINKS</h1>
             <h2 className="font-nexa-light max-[400px]:text-xs max-[400px]:tracking-[8] text-xl tracking-[10] sm:text-2xl md:text-3xl md:tracking-[18]">THE FACE OF NSUT</h2>
+            <p className="mt-4 text-sm sm:text-base md:text-lg text-[#1cd30c] text-center">GRAB YOUR SCRIBBLE T-SHIRT & YEARBOOK </p>
+            <div className="w-full flex min-[580px]:flex-row max-[581px]:flex-col justify-center items-center gap-6 mt-6">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeV6n2kqO3g9AhZcP6JkJS9WS0Ugts3AkIwn316mwP6KqLd4A/viewform" target="_blank">
+                    <button className=' block listItem'>
+                  
+                        <GradientText
+                        colors={["#1cd30c", "#E6FF00", "#1cd30c", "#E6FF00", "#1cd30c"]}
+                        animationSpeed={8}
+                        showBorder={true}
+                        className="custom-class"
+                        >
+                        YEARBOOK '26 
+                        </GradientText>
+      
+                    </button>
+              </a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeI7r85J3zauGYL4-nGtN7dhBO4QJ11zei-Eo-M7meRDnDMYw/viewform" target="_blank">
+                    <button className='block listItem'>
+                  
+                        <GradientText
+                        colors={["#1cd30c", "#E6FF00", "#1cd30c", "#E6FF00", "#1cd30c"]}
+                        animationSpeed={8}
+                        showBorder={true}
+                        className="custom-class"
+                        >
+                        SCRIBBLE T-SHIRT 
+                        </GradientText>
+      
+                    </button>
+              </a>
+            </div>
           </div>
 
         </div>
