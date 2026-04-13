@@ -331,7 +331,7 @@ export default function Home() {
                         showBorder={true}
                         className="custom-class"
                         >
-                        YEARBOOK '26 
+                        YEARBOOK &apos;26 
                         </GradientText>
       
                     </button>
