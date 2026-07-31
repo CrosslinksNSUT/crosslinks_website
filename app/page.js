@@ -203,53 +203,22 @@ export default function Home() {
 
   const slides = [
 
-    { image: "img/mithilesh.png", 
-      name: "MITHILESH KOROCHIKAR",
+    { image: "img/core/Dhruv.jpeg", 
+      name: "DHRUV SHARMA",
       position: "PRESIDENT, EXTERNAL AFFAIRS",
-      message: "Crosslinks = endless opportunities + unmatched experiences. Everything else you hear? Just background noise.", 
+      message: "Crosslinks is not just a society for me….it has been a journey of ups and downs. Nevertheless, the learnings, love, kalesh and experiences have remained constant and that’s what matters the most.", 
     },
 
-    { image: "img/udita.jpg", 
-      name: "UDITA JARODIA",
+    { image: "img/core/Vidushi.jpeg", 
+      name: "Vidushi Kotnala",
       position: "PRESIDENT, MEDIA",
-      message: "We're not just a team, we're a family, forging a stronger bond with everything we do. What we build here isn't just work - it's love, trust, and legacy in the making!",
+      message: "Bunch of undergrads with too many ideas and just enough courage to make them happen. We bring students together, turn ordinary days into memorable ones, and prove that college is about more than just academics.",
     },
 
-    { image: "img/akshath.png", 
-      name: "AKSHATH BHAMU",
+    { image: "img/core/Muskaan.jpeg", 
+      name: "Muskaan Mathur",
       position: "VICE PRESIDENT",
-      message: "Might genuinely have some of the best connections on here , the people are great, the vibes are immaculate, all in all dont join if youre a loser. peace", 
-    },
-
-    { image: "img/gauri.jpg", 
-      name: "GAURI BHARDWAJ",
-      position: "VICE PRESIDENT",
-      message: "We are not just a PR society we are home—the kind where seniors guide, juniors inspire and bonds turn into lifelong friendships. We hustle hard, party harder, and make every campus event unforgettable.", 
-    },
-
-    { image: "img/aryan.jpg", 
-      name: "ARYAN KHUDLAIN",
-      position: "MANAGING EDITOR",
-      message: "moj masti nahi rukni chiye", 
-    },
-
-    { image: "img/sneha.jpg", 
-      name: "SNEHA VATS",
-      position: "MANAGING EDITOR",
-       
-    },
-
-    { image: "img/prisha.png", 
-      name: "PRISHA PRIYA",
-      position: "MANAGING EDITOR",
-      message: "Crosslinks is all about epic events, amazing people, and unforgettable memories. The kind that makes your college journey truly unforgettable!",
-       
-    },
-
-    { image: "img/abhinav.png", 
-      name: "ABHINAV KUMAR",
-      position: "MANAGING EDITOR",
-       
+      message: "Crosslinks has shown me the value of teamwork and the impact of everyone’s efforts coming together. Beyond the work, it’s about building lasting friendships, enjoying every experience and creating memories we’ll always look back on.", 
     },
   ];
 
@@ -318,39 +287,7 @@ export default function Home() {
           <div className="title flex flex-col gap-0 sm:gap-1 items-center justify-center">
             <h1 className="font-greater-theory max-[400px]:text-4xl font-light text-5xl sm:text-6xl md:text-8xl ">CROSSLINKS</h1>
             <h2 className="font-nexa-light max-[400px]:text-xs max-[400px]:tracking-[8] text-xl tracking-[10] sm:text-2xl md:text-3xl md:tracking-[18]">THE FACE OF NSUT</h2>
-            <p className="mt-4 text-sm sm:text-base md:text-lg text-[#1cd30c] text-center">GRAB YOUR SCRIBBLE T-SHIRT & YEARBOOK </p>
-            <div className="w-full flex min-[580px]:flex-row max-[581px]:flex-col justify-center items-center gap-6 mt-6">
-        
-          
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeV6n2kqO3g9AhZcP6JkJS9WS0Ugts3AkIwn316mwP6KqLd4A/viewform" target="_blank">
-                    <button className=' block listItem'>
-                  
-                        <GradientText
-                        colors={["#1cd30c", "#E6FF00", "#1cd30c", "#E6FF00", "#1cd30c"]}
-                        animationSpeed={8}
-                        showBorder={true}
-                        className="custom-class"
-                        >
-                        YEARBOOK &apos;26 
-                        </GradientText>
-      
-                    </button>
-              </a>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeI7r85J3zauGYL4-nGtN7dhBO4QJ11zei-Eo-M7meRDnDMYw/viewform" target="_blank">
-                    <button className='block listItem'>
-                  
-                        <GradientText
-                        colors={["#1cd30c", "#E6FF00", "#1cd30c", "#E6FF00", "#1cd30c"]}
-                        animationSpeed={8}
-                        showBorder={true}
-                        className="custom-class"
-                        >
-                        SCRIBBLE T-SHIRT 
-                        </GradientText>
-      
-                    </button>
-              </a>
-            </div>
+            
           </div>
 
         </div>
