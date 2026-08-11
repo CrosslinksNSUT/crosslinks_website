@@ -146,9 +146,6 @@ export default function Home() {
 
     // Start fade-out after short delay
     const timeout = setTimeout(() => {
-      // Re-enable scroll just before animation starts
-      document.body.style.overflow = 'auto';
-
       gsap.to(overlayRef.current, {
         opacity: 0,
         duration: 0.6,
@@ -275,10 +272,24 @@ export default function Home() {
       {showOverlay && (
         <div
           ref={overlayRef}
-          className="fixed top-0 left-0 w-full h-screen bg-black text-white flex items-center justify-center z-50">
+          className="fixed top-0 left-0 w-full h-[100dvh] bg-black text-white flex items-center justify-center z-50">
           <h1 className=" text-2xl sm:text-5xl font-nexa-light">WELCOME</h1>
         </div>
       )}
+
+      <div className="fixed top-0 left-0 w-full h-[100dvh] bg-black text-white flex flex-col gap-8 items-center justify-center text-center px-6 z-40">
+        <h1 className="font-greater-theory max-[400px]:text-4xl font-light text-5xl sm:text-6xl md:text-7xl text-[#1cd30c]">
+          WE&apos;VE MOVED
+        </h1>
+        <p className="font-nexa-light text-base sm:text-xl md:text-2xl max-w-2xl sm:max-w-none sm:whitespace-nowrap">
+          Crosslinks has a brand new website. This site is no longer maintained.
+        </p>
+        <a
+          href="https://www.crosslinksnsut.in/"
+          className="font-nexa-light text-lg sm:text-xl px-8 py-3 border-2 border-[#1cd30c] text-[#1cd30c] rounded-full transition-colors duration-300 hover:bg-[#1cd30c] hover:text-black">
+          GO TO NEW WEBSITE
+        </a>
+      </div>
 
       <div className="flex flex-col font-main mx-auto px-4 w-full max-w-[1280px]">
         

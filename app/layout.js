@@ -1,7 +1,5 @@
 import { Geist, Geist_Mono, Lexend_Deca } from "next/font/google";
 import "./globals.css";
-import { NavBar } from "@/components/NavBar";
-import { Footer } from "@/components/Footer";
 import GreaterTheory from 'next/font/local';
 import NexaLight from 'next/font/local';
 import { TriggerProvider } from "@/context/TriggerContext";
@@ -45,9 +43,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${lexendDeca.variable} ${greaterTheory.variable} ${nexaLight.variable} antialiased`}>
         <TriggerProvider>
-          <NavBar/>
           {children}
-          <Footer/>
         </TriggerProvider>
       </body>
     </html>
